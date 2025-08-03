@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
-import PropertyDetail from "@/pages/property/PropertyDetail";
-import BookingSection from "@/pages/property/BookingSection";
-import ReviewSection from "@/pages/property/ReviewSection";
+import PropertyDetail from "@/components/property/PropertyDetail";
+import BookingSection from "@/components/property/BookingSection";
+import ReviewSection from "@/components/property/ReviewSection";
 import { useEffect, useState } from "react";
 
 interface Address {
